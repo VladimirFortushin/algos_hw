@@ -1,5 +1,7 @@
 .jar использует Maven для сборки, все библиотеки внутри .jar. Для запуска достаточно bash: java -jar "Heroes Battle-1.0.0.jar"<br>
 <br>
+Исходники импементаций: algos_fortushin/src/main/java/ru/mephi/fortushin/programs<br>
+<br>
 Список операций, сложность которых в данном obf.jar выше условных O(1):<br>
 <br>
 --GeneratePresetImpl:<br>
