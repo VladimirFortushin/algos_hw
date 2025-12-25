@@ -6,17 +6,20 @@
   Arrays.sort: для 4 пресетов юнитов: O(4*log4) == (m * log m)<br>
   for loop: для размещения 44 юнитов O(~44) == O(n)<br>
     -Задание: O(44*4) == O(n*m)<br>
+    <br>
 --SimulateBattleImpl:<br>
   PriorityQueue.poll: худший случай O(log n)<br>
   PriorityQueue.add: худший случай O(log n)<br>
   HashMap.put: худший случай O(log n)<br>
   PriorityQueue.add in for loop: O(n*log n)<br>
     -Задание: O(n^2 * log n)<br>
+    <br>
 --SuitableForAttackUnitsFinderImpl:<br>
   List.get: O(n)<br>
   Set.add in for loop: ~O(n)<br>
   for loop(n) in for loop(m): O(n*m)<br>
     -Задание: O(n*m)<br>
+    <br>
 --UnitTargetPathFinderImpl:<br>
   PriorityQueue.poll: O(log WIDTH × HEIGHT)<br>
   PriorityQueue.add: O(log WIDTH × HEIGHT)<br>
